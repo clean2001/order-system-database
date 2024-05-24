@@ -121,11 +121,10 @@ CREATE TABLE review (
     score ENUM('1', '2', '3', '4', '5'),
     member_id BIGINT NOT NULL,
     ordered_product_id BIGINT NOT NULL,
+    product_id BIGINT NOT NULL,
+    FOREIGN KEY (product_id) REFERENCES product(product_id),
     FOREIGN KEY (member_id) REFERENCES member(member_id),
     FOREIGN KEY (ordered_product_id) REFERENCES ordered_product(ordered_product_id)
 );
 
 SET foreign_key_checks = 1;
-
-            SELECT c.type, c.discount_rate, c.discount_amount
-                FROM coupon AS c INNER JOIN issued_coupon AS i ON i.issued_coupon_id = 1 WHERE i.coupon_id = c.coupon_id;
