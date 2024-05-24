@@ -91,6 +91,7 @@ CREATE TABLE `order` (
     canceled_at DATETIME,
     original_price int NOT NULL,
     final_price int NOT NULL,
+    address varchar(3000),
     member_id bigint NOT NULL,
     issued_coupon_id bigint,
     FOREIGN KEY (member_id) REFERENCES member(member_id),
@@ -125,3 +126,6 @@ CREATE TABLE review (
 );
 
 SET foreign_key_checks = 1;
+
+            SELECT c.type, c.discount_rate, c.discount_amount
+                FROM coupon AS c INNER JOIN issued_coupon AS i ON i.issued_coupon_id = 1 WHERE i.coupon_id = c.coupon_id;
