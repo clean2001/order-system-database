@@ -1,7 +1,8 @@
 # ERD
 https://www.erdcloud.com/d/AJzd3G3yNaKh93CLM
-![beyond-sw-order-system](https://github.com/clean2001/order-system-database/assets/64718002/b60d49a8-6139-4c65-bab5-8f8688dbd436)
 
+
+![beyond-sw-order-system (1)](https://github.com/clean2001/order-system-database/assets/64718002/7fd74c08-7e8f-4c62-a15a-8fa56ef751e8)
 
 
 ---
