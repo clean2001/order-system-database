@@ -90,9 +90,9 @@ CREATE TABLE `order` (
     original_price int NOT NULL,
     final_price int NOT NULL,
     member_id bigint NOT NULL,
-    coupon_id bigint,
+    issued_coupon_id bigint,
     FOREIGN KEY (member_id) REFERENCES member(member_id),
-    FOREIGN KEY (coupon_id) REFERENCES coupon(coupon_id)
+    FOREIGN KEY (issued_coupon_id) REFERENCES issued_coupon(issued_coupon_id)
 );
 
 
