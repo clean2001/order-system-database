@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS member;
 
 CREATE TABLE member (
     member_id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    email VARCHAR(255) UNIQUE,
+    email VARCHAR(255) UNIQUE NOT NULL,
     member_name VARCHAR(255),
     password VARCHAR(20),
     role ENUM('member', 'seller', 'admin') DEFAULT 'member',
