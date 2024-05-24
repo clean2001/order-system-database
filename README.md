@@ -20,6 +20,8 @@ https://www.erdcloud.com/d/AJzd3G3yNaKh93CLM
 
 ## 입점
 - seller 회원은 입점할 수 있습니다.
+
+## 상품 등록
 - seller 회원은 상품을 등록할 수 있습니다.
 
 ## 상품 목록 조회
