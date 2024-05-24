@@ -19,7 +19,7 @@ https://www.erdcloud.com/d/AJzd3G3yNaKh93CLM
 
 ## 입점
 - seller 회원은 입점할 수 있습니다.
-- sellter 회원은 상품을 등록할 수 있습니다.
+- seller 회원은 상품을 등록할 수 있습니다.
 
 ## 상품 목록 조회
 - 회원들은 상품 목록을 페이지 별로 조회 가능합니다.
