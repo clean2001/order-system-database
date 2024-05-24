@@ -66,6 +66,8 @@ CREATE TABLE coupon (
     started_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     expired_at DATETIME NOT NULL DEFAULT DATE_ADD(CURRENT_TIMESTAMP, INTERVAL +10 DAY), -- 쿠폰 시작 후 10일
     stock INT UNSIGNED NOT NULL DEFAULT 0,
+    discount_rate INT DEFAULT 0,
+    discount_amount INT DEFAULT 0,
     type ENUM('rate', 'amount')
 );
 
