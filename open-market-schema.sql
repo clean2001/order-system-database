@@ -2,17 +2,16 @@
 -- USE open_market;
 
 -- ALTER DATABASE open_market CHARACTER SET utf8mb4;
-
 SET foreign_key_checks = 0;
 
 DROP TABLE IF EXISTS member;
 
 CREATE TABLE member (
     member_id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    email VARCHAR(255),
+    email VARCHAR(255) UNIQUE,
     member_name VARCHAR(255),
     password VARCHAR(20),
-    role ENUM('member', 'seller', 'admin'),
+    role ENUM('member', 'seller', 'admin') DEFAULT 'member',
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     deleted_at DATETIME,
     del_yn TINYINT(1) NOT NULL DEFAULT 0
