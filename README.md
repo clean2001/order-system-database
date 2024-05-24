@@ -2,8 +2,7 @@
 https://www.erdcloud.com/d/AJzd3G3yNaKh93CLM
 
 
-![beyond-sw-order-system (1)](https://github.com/clean2001/order-system-database/assets/64718002/7fd74c08-7e8f-4c62-a15a-8fa56ef751e8)
-
+![beyond-sw-order-system (2)](https://github.com/clean2001/order-system-database/assets/64718002/e8e7f6d0-7039-4604-b409-a6ab4f321a67)
 
 ---
 
